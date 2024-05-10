@@ -74,3 +74,8 @@ map ouroboros
 	maxplayers 80
 	votable
 endmap
+
+map sundiver
+	maxplayers 80
+	votable
+endmap

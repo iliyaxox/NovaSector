@@ -17,6 +17,7 @@
 		#include "map_files\VoidRaptor\VoidRaptor.dmm"
 		#include "map_files\NSVBlueshift\Blueshift.dmm"
 		#include "map_files\Ouroboros\Ouroboros.dmm"
+		#include "map_files/Sundiver/sundiver.dmm"
 		// NOVA EDIT END
 
 		#ifdef CIBUILDING

@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"map_name": "Sundiver Station",
+	"map_path": "map_files/sundiver",
+	"map_file": "sundiver.dmm",
+	"shuttles": {
+		"emergency": "emergency_delta",
+		"ferry": "ferry_fancy",
+		"cargo": "cargo_sundiver",
+		"whiteship": "whiteship_delta"
+	},
+	"job_changes": {
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/commons/lounge"]
+		}
+	}
+}

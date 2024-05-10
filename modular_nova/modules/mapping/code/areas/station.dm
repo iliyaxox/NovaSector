@@ -25,6 +25,62 @@
 	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
 	icon_state = "secure_bunker"
 
+/area/station/command/hop_lobby
+	name = "Head of Personnel's Lobby"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "hop_lobby"
+
+/area/station/command/hop_access
+	name = "Head of Personnel Access"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "hop_access"
+
+/area/station/command/complex
+	name = "Command Complex"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "command_complex"
+
+/area/station/command/dining
+	name = "Command Dining"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "command_dining"
+
+/area/station/command/kitchen
+	name = "Command Kitchen"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "command_kitchen"
+
+/area/station/command/kitchen
+	name = "Command Kitchen"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "command_kitchen"
+
+/area/station/command/starboard
+	name = "Starboard Bridge Hallway"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "bridge_hallway_stbd"
+
+/area/station/command/port
+	name = "Port Bridge Hallway"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "bridge_hallway_port"
+
+/area/station/command/nuke_wing/port
+	name = "Port Vault Wing"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "nuke_wing_port"
+
+/area/station/command/nuke_wing/starboard
+	name = "Starboard Vault Wing"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "nuke_wing_stbd"
+
+// NT & BS Joint Area
+/area/station/command/external_hall
+	name = "External Meeting Hall"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "external_hall"
+
 // NT Consultant area
 /area/station/command/heads_quarters/nt_rep
 	name = "Nanotrasen Consultant's Office"
@@ -70,11 +126,112 @@
 	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
 	icon_state = "tele_sci"
 
+/area/station/science/hallway
+	name = "Research Public Hallway"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "research_hallway"
+
 // Security areas
 /area/station/security/checkpoint/service
 	name = "Security Post - Service"
 	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
 	icon_state = "checkpoint_serv"
+
+/area/station/security/complex
+	name = "Security Complex"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "sec_complex"
+
+/area/station/security/detectives_office/port
+	name = "Port Detective's Office"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "detective_port"
+
+/area/station/security/detectives_office/starboard
+	name = "Starboard Detective's Office"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "detective_stbd"
+
+/area/station/security/investigative_center
+	name = "Investigative Center"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "investigative_center"
+
+/area/station/security/interview
+	name = "Interviwing Centre"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "interview_center"
+
+/area/station/security/interview/chamber_a
+	name = "Interviwing Chamber A"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "interview_center_a"
+
+/area/station/security/interview/chamber_b
+	name = "Interviwing Chamber B"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "interview_center_b"
+
+// Prison-related (added for Sundiver)
+/area/station/security/prison/lobby
+	name = "Prison Lobby"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_lobby"
+
+/area/station/security/prison/hallway
+	name = "Main Prison Hallway"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_hall"
+
+/area/station/security/prison/hallway/starboard
+	name = "Starboard Prison Hallway"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_hall_stbd"
+
+/area/station/security/prison/changing_point
+	name = "Prison Changing Point"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_change"
+
+/area/station/security/prison/armory
+	name = "Prison Armory"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_armory"
+
+/area/station/security/prison/visit/monitoring
+	name = "Prison Visit Monitoring"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "visit_monitor"
+
+/area/station/security/prison/section
+	name = "Prison Section"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_section"
+
+/area/station/security/prison/section/starboard
+	name = "Starboard Prison Section"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_section_stbd"
+
+/area/station/security/prison/section/port
+	name = "Port Prison Section"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_section_port"
+
+/area/station/security/prison/section/forestarboard
+	name = "Fore Starboard Prison Section"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_section_forestarboard"
+
+/area/station/security/prison/basketball_court
+	name = "Prison Basketball Court"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_basket"
+
+/area/station/security/prison/laundry
+	name = "Prison Laundry"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_laundry"
 
 // CO Office
 /area/station/security/corrections_officer
@@ -159,6 +316,26 @@
 	name = "Forge"
 	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
 	icon_state = "forge"
+
+/area/station/service/theater_backstage
+	name = "Theater Backstage"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "theatre_backstage"
+
+/area/station/service/mime_office
+	name = "Mime's Office"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "mime_office"
+
+/area/station/service/clown_office
+	name = "Clown's Office"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "clown_office"
+
+/area/station/service/complex
+	name = "Service Complex"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "service_complex"
 
 // Wrestling areas for BlueShift
 /area/station/common/wrestling
@@ -387,6 +564,11 @@
 	name = "Upper Security Maintenance"
 	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
 	icon_state = "sec_maint_upper"
+
+/area/station/maintenance/department/security/prison
+	name = "Prison Maintenance"
+	icon = 'modular_nova/modules/mapping/icons/areas/areas_station.dmi'
+	icon_state = "prison_maint"
 
 // Service
 /area/station/maintenance/library
